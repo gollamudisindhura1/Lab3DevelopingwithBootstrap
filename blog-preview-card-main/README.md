@@ -8,7 +8,8 @@ The card has a yellow background behind it and a black shadow.
 
 1. How to use flex box to center content on the page
 2. How to use hover effects and smooth transitions
-3. How to make the layout responsive with media queries.
+3. How to make the layout responsive with media queries
+4. How to use Figma as a guide for perfect spacing and font sizes
 
 
 # Preview

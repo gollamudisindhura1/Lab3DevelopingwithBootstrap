@@ -4,8 +4,9 @@ A simple white card that contains a QR code, a title and a short description. Th
 
 # Learnings:
 
-1.To center items using Flexbox
-2.To match fonts, colors, and sizes to a given style guide
+1. How to center items using Flexbox
+2. How to match fonts, colors, and sizes to a given style guide
+3. How to use Figma to chect exact colors, font sizes and spacing
 
 # Preview:
 The final design shows a clean white card centered on a light blue backgrounf=d with a QR code image and clear text below.
