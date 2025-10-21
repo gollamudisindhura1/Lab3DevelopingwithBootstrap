@@ -1,18 +1,25 @@
 body{
   
   background-color: #f4d04e;
+  font-family: "Poppins", sans-serif;
  
 }
-.card {
+.blog-card {
   border-radius: 15px;
   background-color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.card-title a:hover {
+.blog-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.hover-link {
+  color: #000;
+  transition: color 0.3s ease;
+}
+.hover-link:hover {
   color: #f4d04e;
-}
-
-.card-text {
-  font-size: 0.9rem;
+  text-decoration: underline;
 }
 /* .blog-card{
     background-color: white;

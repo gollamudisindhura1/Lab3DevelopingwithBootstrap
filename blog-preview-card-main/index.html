@@ -11,25 +11,48 @@
 </head>
 
 <body class="d-flex justify-content-center align-items-center vh-100">
-  <main class="card border-0 shadow-lg" style="border-radius: 15px; max-width: 360px;">
-    <img src="assets/images/illustration-article.svg" alt="Illustration Article" class="card-img-top rounded-top-3">
-    <div class="card-body">
-      <span class="badge bg-warning text-dark mb-2 fw-semibold">Learning</span>
-      <p class="text-muted small mb-1">Published 21 Dec 2023</p>
-      <h5 class="card-title fw-bold mb-2">
-        <a href="#" class="text-dark text-decoration-none">HTML & CSS foundations</a>
-      </h5>
-      <p class="card-text text-muted">
-        These languages are the backbone of every website, defining structure, content, and presentation.
-      </p>
+  <style>body {
+      background-color: #F4D04E !important;
+    }</style>
+  <main
+      class="card shadow-lg border-0 p-3 blog-card"
+      style="width: 22rem;"
+    >
+      <img
+        src="assets/images/illustration-article.svg"
+        class="card-img-top rounded"
+        alt="Illustration of article"
+      />
 
-      <div class="d-flex align-items-center mt-3">
-        <img src="assets/images/image-avatar.webp" alt="Greg Hooper" class="rounded-circle me-2" width="35"
-          height="35" />
-        <span class="fw-semibold">Greg Hooper</span>
+      <div class="card-body">
+        <span class="badge bg-warning text-dark mb-2 px-3 py-2 fw-semibold">
+          Learning
+        </span>
+        <p class="text-muted mb-2">Published 21 Dec 2023</p>
+
+        <h3 class="card-title mb-3">
+          <a
+            href="#"
+            class="text-decoration-none fw-bold hover-link" style="color: #000000;" >
+            HTML & CSS foundations
+          </a>
+        </h3>
+
+        <p class="card-text text-muted">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+
+        <div class="d-flex align-items-center mt-3">
+          <img
+            src="assets/images/image-avatar.webp"
+            alt="Photo of Greg Hooper"
+            class="rounded-circle me-3"
+            style="width: 40px; height: 40px;"
+          />
+          <span class="fw-semibold">Greg Hooper</span>
+        </div>
       </div>
-    </div>
-  </main>
-</body>
-
+    </main>
+  </body>
 </html>
